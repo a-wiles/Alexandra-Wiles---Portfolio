@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
