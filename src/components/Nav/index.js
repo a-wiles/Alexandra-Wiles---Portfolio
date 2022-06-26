@@ -15,6 +15,10 @@ export default function Nav () {
             </li>
 
             <li>
+              <a href="#resume">Resume</a>
+            </li>
+
+            <li>
               <a href="#contactme">Contact Me</a>
             </li>
     
