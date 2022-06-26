@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Header from './components/Header';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
@@ -28,8 +29,10 @@ function App() {
 
     return (
       <div>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage()}
+       <div>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
       </div>
     );
   }
