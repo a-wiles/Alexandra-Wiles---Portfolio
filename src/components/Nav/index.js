@@ -1,29 +1,52 @@
 import React from 'react';
 
-export default function Nav () {
-    return(
-        <header>
-        <nav>
-          <ul>
-    
-            <li>
-              <a href="#aboutme">About Me</a>
-            </li>
+function Nav({ currentPage, handlePageChange }) {
+    return (
+      <ul className="nav nav-tabs">
 
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
+        <li className="nav-item">
+          <a
+            href="#about"
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About Me
+          </a>
+        </li>
 
-            <li>
-              <a href="#resume">Resume</a>
-            </li>
+        <li className="nav-item">
+          <a
+            href="#projects"
+            onClick={() => handlePageChange('Projects')}
+            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+          >
+            Projects
+          </a>
+        </li>
 
-            <li>
-              <a href="#contactme">Contact Me</a>
-            </li>
-    
-          </ul>
-        </nav>
-      </header>
-    )
-}
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >
+            Resume
+          </a>
+
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </a>
+        </li>
+
+      </ul>
+    );
+  }
+  
+  
+export default Nav;
