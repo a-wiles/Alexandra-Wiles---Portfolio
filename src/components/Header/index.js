@@ -4,8 +4,7 @@ import Nav from '../Nav';
 export default function Header() {
   return(
     <div>
-    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-    {renderPage()}
+      
     </div>
   );
 }
