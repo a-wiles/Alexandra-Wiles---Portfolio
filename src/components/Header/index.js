@@ -5,6 +5,7 @@ import Contact from '../Contact';
 import Nav from '../Nav';
 import Projects from '../Projects';
 import Resume from '../Resume';
+import Footer from '../Footer';
 
 function App() {
     const [currentPage, setCurrentPage] = useState('About');

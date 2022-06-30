@@ -58,3 +58,8 @@ body {
     align-items: center;
     width: 100%;
 }
+
+.footerbox {
+    align-items: center;
+    flex: 1;
+}
