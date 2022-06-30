@@ -1,0 +1,60 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary-color: #D5D5CC;
+    --secondary-color: #AFB7A0;
+    --tertiary-color: #969d7d;
+    --quaternary-color: #6E755A;
+    --quinary-color: #bd815d;
+}
+
+background-color {
+    color:#6E755A;
+}
+
+/*Nav CSS*/
+.nav nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items {
+    padding: 10px 20px; 
+    font-weight: heavy;
+    font-size:xx-large;
+    color: var(--secondary-color);
+    background-color: #6E755A;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+nav ul li a:hover{
+    font-style:italic ;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 25px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #6E755A;
+}
+
+.projectbuttons {
+    align-items: center;
+    width: 100%;
+}
