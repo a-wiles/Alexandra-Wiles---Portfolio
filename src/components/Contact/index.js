@@ -1,4 +1,7 @@
 import '../../App.css';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+
 
 function Contact() {
   return (
@@ -62,5 +65,27 @@ function Contact() {
     </div>
   );
 }
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "service_b4qmiqc",
+      "template_h9rzd14",
+      form.current,
+      "user_UHpNJFij8MtQD1aAfs38X"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        alert("SUCCESS!");
+      },
+      (error) => {
+        console.log(error.text);
+        alert("FAILED...", error);
+      }
+    );
+};
 
 export default Contact;
