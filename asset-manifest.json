@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//a-wiles.github.io/alexandra-wiles---portfolio/static/css/main.a2a6c312.css",
+    "main.js": "//a-wiles.github.io/alexandra-wiles---portfolio/static/js/main.4edb9727.js",
+    "static/js/787.c72f1232.chunk.js": "//a-wiles.github.io/alexandra-wiles---portfolio/static/js/787.c72f1232.chunk.js",
+    "static/media/thebword.png": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/thebword.4d1cc68c671dc89165f8.png",
+    "static/media/moviegenie.jpg": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/moviegenie.440d10752c53492fc1b3.jpg",
+    "static/media/employeetracker.png": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/employeetracker.519d33c1ba31aac5b08e.png",
+    "static/media/weathertracker.png": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/weathertracker.adc754ee2f4a916abe4f.png",
+    "static/media/avatarpicture.jpg": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/avatarpicture.d6f99aae1ba139eb89df.jpg",
+    "static/media/blogsite.png": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/blogsite.1a9d6cf496e010ea894f.png",
+    "static/media/alexsresume.pdf": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/alexsresume.0f018e26aa15572096ca.pdf",
+    "static/media/notetaker.png": "//a-wiles.github.io/alexandra-wiles---portfolio/static/media/notetaker.0cfe518c20c5bb25a05e.png",
+    "index.html": "//a-wiles.github.io/alexandra-wiles---portfolio/index.html",
+    "main.a2a6c312.css.map": "//a-wiles.github.io/alexandra-wiles---portfolio/static/css/main.a2a6c312.css.map",
+    "main.4edb9727.js.map": "//a-wiles.github.io/alexandra-wiles---portfolio/static/js/main.4edb9727.js.map",
+    "787.c72f1232.chunk.js.map": "//a-wiles.github.io/alexandra-wiles---portfolio/static/js/787.c72f1232.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2a6c312.css",
+    "static/js/main.4edb9727.js"
+  ]
+}
