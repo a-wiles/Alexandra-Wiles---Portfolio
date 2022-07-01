@@ -72,12 +72,8 @@ body {
     display: flex;
 }
 
-.nametitle {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+.profileimage {
+    padding: 10px;;
 }
 
 footer {
@@ -143,4 +139,20 @@ header {
     list-style: none;
     margin: auto;
     padding: 15px;
+}
+
+.aboutinfo {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+}
+
+.name {
+    color:#3c3f31;
+}
+
+button.btn button.btn-primary {
+    background-color: whitesmoke;
 }

@@ -29,7 +29,6 @@ function App() {
     return (
       <div>
        <div>
-        <h1 className="titlenav">Alexandra Wiles</h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
