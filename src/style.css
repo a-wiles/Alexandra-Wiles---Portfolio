@@ -134,3 +134,13 @@ header {
 .contact {
     background-color: #6E755A;
 }
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+}

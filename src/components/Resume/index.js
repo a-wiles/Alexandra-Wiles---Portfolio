@@ -5,7 +5,7 @@ export default function index() {
     return (
     <object 
     className="resume" 
-    width="65%" 
+    width="50%" 
     height="100%" 
     data={resume} 
     type="application/pdf" aria-label="resume-pdf"         
