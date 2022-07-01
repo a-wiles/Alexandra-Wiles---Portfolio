@@ -17,7 +17,7 @@ background-color {
 }
 
 /*Nav CSS*/
-.nav nav-tabs {
+.nav .nav-tabs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,7 +25,7 @@ background-color {
     list-style: none;
 }
 
-.nav-items {
+.nav-item {
     padding: 10px 20px; 
     font-weight: heavy;
     font-size:xx-large;
@@ -33,7 +33,7 @@ background-color {
     background-color: #6E755A;
 }
 
-nav ul li a {
+.nav-item a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
@@ -42,7 +42,7 @@ nav ul li a {
     color: var(--quaternary-color);
 }
 
-nav ul li a:hover{
+.nav-item a:hover{
     font-style:italic ;
     color: var(--secondary-color);
     background-color: var(--quaternary-color);
@@ -62,4 +62,58 @@ body {
 .footerbox {
     align-items: center;
     flex: 1;
+}
+
+.aboutimage {
+    border-radius: 70px;
+    display: flex;
+}
+
+.nametitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 9999;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 10px 20px; 
+    font-weight: heavy;
+    font-size:xx-large;
+    color: var(--secondary-color);
+}
+
+footer ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+footer ul li a:hover{
+    font-style:italic ;
+    color: var(--secondary-color);
+    background-color: var(--quaternary-color);
+    border-radius: 25px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }

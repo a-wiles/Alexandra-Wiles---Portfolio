@@ -3,7 +3,6 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer id= "contactme" className="footerbox">
-    <h2>Contact Me</h2>
     <nav>
       <ul>
         <li>
@@ -16,7 +15,7 @@ export default function Footer() {
           <a href="https://a-wiles.github.io/Alex-Portfolio/">Portfolio</a>
         </li>
         <li>
-          <a>Slack ID: U02UTEZ6H6K</a>
+          <a href="">Slack ID: U02UTEZ6H6K</a>
         </li>
   
       </ul>
