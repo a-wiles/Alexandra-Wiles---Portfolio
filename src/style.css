@@ -16,6 +16,11 @@ background-color {
     color:#6E755A;
 }
 
+.titlenav {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*Nav CSS*/
 .nav .nav-tabs {
     display: flex;
@@ -29,8 +34,6 @@ background-color {
     padding: 10px 20px; 
     font-weight: heavy;
     font-size:xx-large;
-    color: var(--secondary-color);
-    background-color: #6E755A;
 }
 
 .nav-item a {
@@ -39,7 +42,7 @@ background-color {
     font-size: 1.55vw;
     text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    color: var(--quaternary-color);
+    color: black;
 }
 
 .nav-item a:hover{
@@ -116,4 +119,18 @@ footer ul li a:hover{
     background-color: var(--quaternary-color);
     border-radius: 25px;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.contact {
+    background-color: #6E755A;
 }
