@@ -11,6 +11,7 @@ import employeetracker from '../../assets/employeetracker.png';
 import notetaker from '../../assets/notetaker.png';
 import bword from '../../assets/thebword.png';
 import weathertracker from '../../assets/weathertracker.png';
+import dinoadopt from '../../assets/dinoadoption.png';
 
 
 export default function Cards() {
@@ -33,13 +34,13 @@ export default function Cards() {
 
                     <Col>
                         <Card.Body>
-                            <Card.Title>Employee Tracker</Card.Title>
-                            <img src={employeetracker} width="100%" height="100%" />
+                            <Card.Title>DDAA</Card.Title>
+                            <img src={dinoadopt} width="100%" height="100%" />
                             <Card.Text>
-                                Backend database to help keep track of employees based upon managment, where worked and salary.
+                                Dinosaur Adoption Website with React
                             </Card.Text>
                             <div className="projectbuttons">
-                                <Button href="https://drive.google.com/file/d/1VxJJQ_cashIPUErjXjNz31_Q-rdrd9Lr/view">Employee Tracker's video</Button><Button href="https://github.com/a-wiles/Employee-Tracker">Employee Tracker GitHub</Button>
+                                <Button href="https://delusionaldinos.herokuapp.com/">Delusional Dinosaur Adoption Agency</Button><Button href="https://github.com/jjakobsons87/dino-adoption">Dinosaur Adoption GitHub</Button>
                             </div>
                         </Card.Body>
                     </Col>
